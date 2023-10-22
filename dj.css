@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.continer{
+    width: 1400px;
+    padding: 0px 30px;
+}
+nav{
+    width: 100%;
+    height: 90px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+.sol{
+    width: 400px;
+    height: 90px;
+}
+.sag{
+    width: 700px;
+    height:90px ;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none; 
+    font-size: 20px;
+    color: rgb(11, 173, 202);
+    align-items: center;
+}
+.bi-list{
+  display: none;
+}
+.bir{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(42, 42, 185);
+}
+.biru{
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.birsol{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ .birsol h2, span, a{
+    font-size: 35px;
+    color: white;
+}
+.birsola{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.a1{
+    background-color: rgb(114, 144, 228);
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+.a1:hover{
+    background-color: rgb(42, 42, 185);
+}
+
+.a2{
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid white;
+}
+.a2:hover{
+    background-color: rgb(114, 144, 228);
+}
+.birsag{
+    width: 570px;
+    height: 400px;
+}
+.continer, h3, p{
+    text-align: center;
+}
+.ikiu{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    gap: 40px;
+}
+.ikisol{
+    width: 600px;
+    height: 550px;
+}
+.ikia{
+    width: 100%;
+    height: 90px;
+    margin-top: 40px;
+    background-color: rgb(166, 186, 35);
+}
+.ikia1{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    background-color: white;
+}
+.bi-card-checklist{
+    color: blue;
+    font-size: 40px;
+}
+.bi-brightness-high{
+    color: blue;
+    font-size: 40px;
+}
+.bi-calendar4-week{
+    color: blue;
+    font-size: 40px;
+}
+.ikisag{
+    width: 600px;
+    height: 550px;
+}
+.ucu{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.ucsol{
+    width: 600px;
+    height: 550px;
+}
+.ucsag{
+    width: 600px;
+    height: 550px;
+}
+.usag, h3, p{
+    font-size: 20px;
+}
+.dordu{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.dordsol{
+    width: 600px;
+    height: 550px;
+}
+.dordsag{
+    width: 600px;
+    height: 550px;
+}
+@media screen and (max-width:700px) {
+     ul {display: none;}
+
+    .bi-list{display: block;}
+    
+}
